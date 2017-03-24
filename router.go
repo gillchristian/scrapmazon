@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"bitbucket.org/gillchristian/scrapmazon/apm"
+	"github.com/gillchristian/scrapmazon/apm"
 	"github.com/julienschmidt/httprouter"
 )
 
