@@ -22,8 +22,8 @@ $ curl http://localhost:8080/movie/amazon/B00K19SD8Q
     "poster": "https://images-eu.ssl-images-amazon.com/images/I/51VELYHd4TL._SX200_QL80_.jpg",
     "similar_ids": [
       "B00L9KET84",
-    "B00JM0JXYI",
-    "B00HDZMP94",
+      "B00JM0JXYI",
+      "B00HDZMP94",
     ...
     ]
 }
