@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	baseURL = "https://www.amazon.de/gp/product/"
+	baseURL = "https://www.amazon.com/dp/"
 )
 
 // A Movie holds the data of an Amazon Prime movie and methods to parse it.
@@ -160,7 +160,7 @@ func firstNodeText(nodesText []string) string {
 
 // parseID returns the amazon_id from a Amazon Prime product URL.
 func parseID(url string) string {
-	if strs := strings.Split(url, "product/"); len(strs) >= 2 {
+	if strs := strings.Split(url, "dp/"); len(strs) >= 2 {
 		return strings.Split(strs[1], "/")[0]
 	}
 	return ""
